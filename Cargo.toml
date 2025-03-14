@@ -1,0 +1,11 @@
+[package]
+name = "anicli-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.97"
+clap = "4.5.32"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_yaml = "0.9.34"
+thiserror = "2.0.12"
