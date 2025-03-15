@@ -1,9 +1,4 @@
-mod cli;
-mod errors;
-mod prelude;
-mod providers;
-
-use crate::prelude::*;
+use anicli_rs::prelude::*;
 
 fn main() -> Result<()> {
     Ok(())
